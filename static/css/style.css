@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Headers */
+.main-header,
+.admin-header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Layout */
+.container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn.secondary {
+    background-color: #6b7280;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Table */
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-table th,
+.dashboard-table td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.dashboard-table th {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Priority Colors */
+.priority.high {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.priority.medium {
+    color: #d97706;
+    font-weight: bold;
+}
+
+.priority.low {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+/* Status Badges */
+.status {
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: white;
+    font-size: 13px;
+}
+
+.status.open {
+    background-color: #ef4444;
+}
+
+.status.progress {
+    background-color: #f59e0b;
+}
+
+.status.resolved {
+    background-color: #22c55e;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+}
