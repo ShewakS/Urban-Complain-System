@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raise Complaint</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+    <h1>Raise a Complaint</h1>
+    <p>Submit urban issues with proper details</p>
+</header>
+
+<main class="container">
+    <div class="card">
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <label>Issue Category</label>
+            <select required>
+                <option value="">-- Select Issue --</option>
+                <option>Road Damage</option>
+                <option>Garbage Overflow</option>
+                <option>Water Leakage</option>
+                <option>Electricity Issue</option>
+            </select>
+
+            <label>Description</label>
+            <textarea rows="4" placeholder="Describe the issue..." required></textarea>
+
+            <label>Location</label>
+            <input type="text" placeholder="Area / Ward / Landmark" required>
+
+            <label>Upload Image Proof</label>
+            <input type="file" accept="image/*" required>
+
+            <button type="submit" class="btn">Submit Complaint</button>
+        </form>
+    </div>
+</main>
+
+<footer class="footer">
+    © 2026 Smart Urban Complaint System
+</footer>
+
+</body>
+</html>
